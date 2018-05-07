@@ -1,0 +1,28 @@
+package com.javarush.task.task13.task1322;
+
+/* 
+Интерфейс SimpleObject
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        SimpleObject<String> stringObject = new StringObject<Object>();
+    }
+
+    interface SimpleObject<T> {
+        SimpleObject<T> getInstance();
+    }
+
+    /**
+     * 13.03.2018
+     * @param <T>
+     */
+    public static class StringObject<T> implements SimpleObject<String>{
+
+        public SimpleObject<String> getInstance() {
+           return this;
+        }
+
+    }
+
+}

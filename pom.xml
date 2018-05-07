@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.javarush</groupId>
+    <artifactId>firstSteps</artifactId>
+    <version>1.0</version>
+    <properties>
+        <sonar.sources>C:/\_nout/java/rush/JavaRushTasks</sonar.sources>
+        <sonar.exclusions>
+            
+            C:/_nout/java/rush/JavaRushTasks/5.OnlineInternship/*/*
+        </sonar.exclusions>
+
+    </properties>
+</project>
